@@ -1,0 +1,3 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:sinsiway-official/sinsiway-official.github.io.git
