@@ -36,7 +36,7 @@ int PcAPI_decrypt_name(
 
 
 ### RETURN VALUE
-T성공 시 0을 반환합니다. 
+성공 시 0을 반환합니다. 
 
 오류가 발생하면 0 보다 작은 [에러 코드](../../../error-codes)를 반환합니다. 
 
