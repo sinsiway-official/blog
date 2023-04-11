@@ -64,6 +64,7 @@ anchor = "smart"
     style = "dracula"
 
 
+
 [params]
 copyright = "Inc Sinsiway."
 favicon = "favicon.ico"
@@ -85,6 +86,17 @@ sidebar_menu_compact = false
 # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
 sidebar_search_disable = false
 
+
+[services]
+[services.googleAnalytics]
+# Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
+id = "dummy"
+
+[params.ui.feedback]
+enable = true
+# The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
+yes = '소중한 의견 감사합니다. <a href="https://github.com/sinsiway-official/sinsiway-official.github.io/issues/new">귀하의 소중한 의견 부탁드립니다.</a>.'
+no = '피드백을 주시면 더 나은 서비스를 제공할 수 있도록 노력하겠습니다. <a href="https://github.com/sinsiway-official/sinsiway-official.github.io/issues/new">귀하의 소중한 의견 부탁드립니다.</a>.'
 
 [module]
 [[module.imports]]
