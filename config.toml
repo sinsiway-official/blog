@@ -1,7 +1,7 @@
 baseURL = 'https://sinsiway-official.github.io'
-title = "Sinsiway Docs"
 
-defaultContentLanguage = "en"
+
+defaultContentLanguage = "ko"
 # enableMissingTranslationPlaceholders = true
 # enableRobotsTXT = true
 # enableGitInfo = true
@@ -18,8 +18,8 @@ defaultContentLanguage = "en"
     time_format_default = "02.01.2006"
     time_format_blog = "02.01.2006"
   [languages.ko]
-    title = "Sinsiway Docs"
-    description = "Sinsiway API Guide Document"
+    title = "Petra Cipher Docs"
+    description = "신시웨이 Petra Cipher 라이브러리 문서"
     weight = 2
     contentDir = "content/ko"
     languageCode = "ko-KR"
@@ -66,6 +66,8 @@ anchor = "smart"
 
 [params]
 copyright = "Inc Sinsiway."
+favicon = "favicon.ico"
+# favicon_ico_sizes = "16x16 32x32"
 # privacy_policy = "https://policies.google.com/privacy"
 # github_repo = "https://github.com/sinsiway-official/sinsiway-official.github.io"
 
