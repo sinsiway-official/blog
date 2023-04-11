@@ -1,6 +1,6 @@
 ---
-title: "error codes"
-linkTitle: "error codes"
+title: "Error Codes"
+linkTitle: "Error Codes"
 weight: 3
 ---
 

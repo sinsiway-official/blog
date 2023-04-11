@@ -1,6 +1,6 @@
 ---
 title: "PcAPI_decrypt_name → int"
-linkTitle: "PcAPI_decrypt_name → int"
+linkTitle: "PcAPI_decrypt_name"
 weight: 5
 ---
 
@@ -14,7 +14,8 @@ int PcAPI_decrypt_name(
     unsigned char *src,
     int src_len,
     unsigned char *dst,
-    unsigned int *dst_len)
+    unsigned int *dst_len
+);
 ```
 
 

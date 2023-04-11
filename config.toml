@@ -1,20 +1,55 @@
 baseURL = 'https://sinsiway-official.github.io'
 title = "Sinsiway Docs"
 
-contentDir = "content/en"
 defaultContentLanguage = "en"
-enableMissingTranslationPlaceholders = true
-enableRobotsTXT = true
-enableGitInfo = true
+# enableMissingTranslationPlaceholders = true
+# enableRobotsTXT = true
+# enableGitInfo = true
+
 
 [languages]
-[languages.en]
-title = "Sinsiway Docs"
-description = "Sinsiway API Guide Document"
-languageName ="English"
-# Weight used for sorting.
-weight = 1
-languageCode = 'en-us'
+  [languages.en]
+    title = "Sinsiway Docs"
+    description = "Sinsiway API Guide Document"
+    weight = 1
+    contentDir = "content/en"
+    languageCode = 'en-us'
+    languageName ="English"
+    time_format_default = "02.01.2006"
+    time_format_blog = "02.01.2006"
+  [languages.ko]
+    title = "Sinsiway Docs"
+    description = "Sinsiway API Guide Document"
+    weight = 2
+    contentDir = "content/ko"
+    languageCode = "ko-KR"
+    languageName ="한국어"
+    time_format_default = "2006.01.02"
+    time_format_blog = "2006.01.02"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+
+
+# [languages]
+# [languages.en]
+
+# description = "Sinsiway API Guide Document"
+# languageName ="English"
+# # Weight used for sorting.
+# weight = 1
+
+
+# [languages.ko]
+
+
+# languageName ="한국어"
+# # Weight used for sorting.
+# weight = 2
+
 
 [imaging]
 resampleFilter = "CatmullRom"
@@ -32,7 +67,7 @@ anchor = "smart"
 [params]
 copyright = "Inc Sinsiway."
 # privacy_policy = "https://policies.google.com/privacy"
-github_repo = "https://github.com/sinsiway-official/sinsiway-official.github.io"
+# github_repo = "https://github.com/sinsiway-official/sinsiway-official.github.io"
 
 [params.ui]
 #  Set to true to disable breadcrumb navigation.
@@ -48,8 +83,11 @@ sidebar_menu_compact = false
 # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
 sidebar_search_disable = false
 
+
 [module]
 [[module.imports]]
 path = "github.com/google/docsy"
 [[module.imports]]
 path = "github.com/google/docsy/dependencies"
+
+

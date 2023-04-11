@@ -1,6 +1,6 @@
 ---
 title: "PcAPI_encrypt_name → int"
-linkTitle: "PcAPI_encrypt_name → int"
+linkTitle: "PcAPI_encrypt_name"
 weight: 4
 ---
 

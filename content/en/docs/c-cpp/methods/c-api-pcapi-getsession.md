@@ -1,6 +1,6 @@
 ---
 title: "PcAPI_getSession → int"
-linkTitle: "PcAPI_getSession → int"
+linkTitle: "PcAPI_getSession"
 weight: 3
 ---
 

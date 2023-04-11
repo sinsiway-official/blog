@@ -1,6 +1,6 @@
 ---
 title: "PcAPI_initialize → void"
-linkTitle: "PcAPI_initialize → void"
+linkTitle: "PcAPI_initialize"
 weight: 2
 ---
 

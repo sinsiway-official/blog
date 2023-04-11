@@ -1,11 +1,10 @@
-
 ---
-title: "API Documentation"
-linkTitle: "API Documentation"
-weight: 1
+title: "Documentation"
+linkTitle: "Documentation"
+weight: 20
 menu:
   main:
-    weight: 1
+    weight: 20
 ---
 
 
