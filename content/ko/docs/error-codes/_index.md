@@ -1,7 +1,7 @@
 ---
 title: "Error Codes"
 linkTitle: "Error Codes"
-weight: 40
+weight: 3
 categories: ["guide"]
 tags: ["error code", "development", "programming"]
 date: 2023-04-11

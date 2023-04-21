@@ -2,10 +2,9 @@ baseURL = 'https://sinsiway-official.github.io'
 
 
 defaultContentLanguage = "ko"
-# enableMissingTranslationPlaceholders = true
-# enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
+enableRobotsTXT = true
 # enableGitInfo = true
-
 
 [languages]
   [languages.en]
@@ -33,24 +32,6 @@ defaultContentLanguage = "ko"
   filename = "sitemap.xml"
 
 
-
-# [languages]
-# [languages.en]
-
-# description = "Sinsiway API Guide Document"
-# languageName ="English"
-# # Weight used for sorting.
-# weight = 1
-
-
-# [languages.ko]
-
-
-# languageName ="한국어"
-# # Weight used for sorting.
-# weight = 2
-
-
 [imaging]
 resampleFilter = "CatmullRom"
 quality = 75
@@ -63,12 +44,25 @@ anchor = "smart"
   [markup.highlight]
     style = "dracula"
 
-
+# Comment out if you don't want the "print entire section" link enabled.
+[outputs]
+section = ["HTML", "RSS", "JSON"]
 
 [params]
 copyright = "Inc Sinsiway."
-favicon = "favicon.ico"
-# favicon_ico_sizes = "16x16 32x32"
+
+# Google Custom Search Engine ID. Remove or comment out to disable search.
+gcs_engine_id = "f54cb59c6a8ee453a"
+
+# Enable Algolia DocSearch
+algolia_docsearch = false
+
+# Enable Lunr.js offline search
+offlineSearch = false
+
+# Enable syntax highlighting and copy buttons on code blocks with Prism
+prism_syntax_highlighting = false
+
 # privacy_policy = "https://policies.google.com/privacy"
 # github_repo = "https://github.com/sinsiway-official/sinsiway-official.github.io"
 
