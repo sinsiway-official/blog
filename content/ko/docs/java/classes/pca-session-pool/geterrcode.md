@@ -29,6 +29,6 @@ public static void initialize(String conf_file_path, String credentials_password
 void
 
 ### EXCEPTION
-[-30315](../../../error-codes/#-30315), [-30316](../../../error-codes/#-30316), [-30502](../../../error-codes/#-30502), [-30511](../../../error-codes/#-30511)
+[-30315](../../../../error-codes/#-30315), [-30316](../../../../error-codes/#-30316), [-30502](../../../../error-codes/#-30502), [-30511](../../../../error-codes/#-30511)
 
 
